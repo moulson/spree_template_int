@@ -28,6 +28,9 @@ gem 'spree_gateway', '~> 3.7'
 gem 'spree_blog', github: 'moulson/spree_blog'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
 
+#Use S3 far activestorage
+gem 'aws-sdk-s3', require: false
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
