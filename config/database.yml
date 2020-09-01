@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: spree_dev_production
-  username: spree_dev
-  password: <%= ENV['SPREE_DEV_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
